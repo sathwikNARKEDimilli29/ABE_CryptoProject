@@ -1,0 +1,104 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build artifacts and temporary files
+build/
+dist/
+*.log
+npm-debug.log*
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore sensitive or confidential information
+secrets.json
+config.js
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies and generated files for JavaScript and Node.js
+*.js.map
+*.js.lint
+*.js.orig
+*.js.bak
+*.js.flow
+*.js-intelliJ
+*.js-ts
+*.jshintrc
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
+
+# Ignore testing and coverage files
+coverage/
+.cypress/
+.e2e/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore compiled Java files
+target/
+
+# Ignore compiled Ruby files
+*.gem
+*.rbc
+/.config
+
+# Ignore log files and directories
+logs/
+log/
+log.txt
+
+# Ignore generated documentation
+doc/
+
+# Ignore build output
+out/
+
+# Ignore miscellaneous files
+.svn/
+*.swp
+*.bak
+*.zip
+*.gz
+
+# Ignore database files
+*.db
+
+# Ignore temporary files
+*.tmp
+
+# Ignore compiled PHP files
+*.phpc
+
+# Ignore compiled C++ files
+*.out
+
+# Ignore compiled Swift files
+*.ipa
+
+# Ignore TypeScript definition files
+*.d.ts
+
+# Ignore compiled WebAssembly files
+*.wasm
+
+# Ignore compiled Go binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
